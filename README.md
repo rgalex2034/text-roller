@@ -20,7 +20,7 @@ Once done, you mest set up an element with a span inside, like this.
 Now, go to your javascript, grab your element that wraps your `<span>` and initialize your text roller:
 ```
 var my_text_roller = new TextRoller(document.getElementById("my-text-roller"));
-my_text_roller.run();
+my_text_roller.start();
 ```
 
 Done! Your text now rolls and wrap around indefinitely.
