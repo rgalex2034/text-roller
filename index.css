@@ -1,0 +1,6 @@
+#text-roller{
+    position: relative;
+    background-color: #FF3333;
+    color: white;
+    white-space: nowrap;
+}
