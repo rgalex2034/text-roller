@@ -45,6 +45,7 @@ var TextRoller = (function(){
     function nextFrame(delta){
         var self = this;
         refreshWidths.call(this);
+        setUpChildrens.call(this);
         Array.prototype.forEach.call(this.box.children, function(el){
             el.style.left = -self.position + "px";
         });
