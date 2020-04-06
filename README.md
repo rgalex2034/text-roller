@@ -10,7 +10,7 @@ replicated to fill blank space
 ## Usage
 Basically, grab `text-roller.js` and add it to your web page as a `<script>` tag.
 
-Once done, you mest set up an element with a span inside, like this.
+Once done, you must set up an element with a span inside, like this.
 ```
 <div id="my-text-roller">
   <span>This is my text</span>
