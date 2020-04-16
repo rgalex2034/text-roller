@@ -25,7 +25,7 @@ my_text_roller.start();
 
 Done! Your text now rolls and wrap around indefinitely.
 
-## Things to take in account
+## Things to keep in mind
 Make sure your text does not wrap, and overflows to the right. Otherwise, this will not work.
 To make sure that it works, use CSS like in the example files (*index.css*) and make use of
 `white-space: nowrap;` on your wrapper. In the example above it should lool like:
